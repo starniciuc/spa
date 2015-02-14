@@ -1,10 +1,13 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 12, 2015, 12:19:31 AM
-    Author     : Mihai
-*/
-
+@media screen and (max-width: 1200px) {
+    body {
+        background: url("../img/main-bg-md.png") repeat-y center center;
+    }
+}
+@media screen and (max-width: 992px) {
+    body {
+        background: url("../img/main-bg-sm.png") repeat-y center center;
+    }
+}
+@media(max-width:767px){
+   
+}
