@@ -9,4 +9,13 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29b00', endColorstr='#f29b00',GradientType=1 ); /* IE6-9 */
     
     color: #FFFFFF;
+    border:1px solid #FFFFFF;
+    @include box-shadow(0 0 6px rgba(0, 0, 0, 0.17));
+    border-radius: 0;
+    cursor: pointer;
+    padding-top: 3px;
+    
+    &:hover{
+        color: #FFFFFF;
+    }
 }

@@ -2,12 +2,34 @@
     body {
         background: url("../img/main-bg-md.png") repeat-y center center;
     }
+    header ul.main-menu li{
+        width: 158px;
+    }
 }
 @media screen and (max-width: 992px) {
     body {
         background: url("../img/main-bg-sm.png") repeat-y center center;
     }
+    header ul.main-menu li a.item{
+        padding: 5px 0;
+    }
+    header ul.main-menu li{
+        width: 122px;
+    }
+    
 }
 @media(max-width:767px){
-   
+    .navbar{
+        background: rgb(242,155,0);
+    }
+    header ul.main-menu li a.item{
+        padding: 5px 20px;
+    }
+    header ul.main-menu li{
+        width: 100%;
+    }
+    .navbar-toggle .icon-bar{
+        background-color: #FFF;
+    }
+    
 }
