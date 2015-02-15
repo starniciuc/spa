@@ -5,18 +5,25 @@
     header ul.main-menu li{
         width: 158px;
     }
+     footer{
+        background: url("../img/bottom-md.png") no-repeat center bottom;
+    }
 }
 @media screen and (max-width: 992px) {
     body {
         background: url("../img/main-bg-sm.png") repeat-y center center;
     }
-    header ul.main-menu li a.item{
-        padding: 5px 0;
-    }
+    
     header ul.main-menu li{
         width: 122px;
+        a.item{
+            padding: 5px 0;
+        }
     }
-    
+     footer{
+        background: url("../img/bottom-sm.png") no-repeat center bottom;
+    }
+   
 }
 @media(max-width:767px){
     .navbar{
@@ -31,5 +38,5 @@
     .navbar-toggle .icon-bar{
         background-color: #FFF;
     }
-    
+
 }

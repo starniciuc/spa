@@ -19,3 +19,18 @@
         color: #FFFFFF;
     }
 }
+
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    background-size: 100% 100%;
+        
+    &.vk{
+        background-image: url("../img/vk.png");
+    }
+    &.inst{
+        background-image: url("../img/instagram.png");
+    }
+}

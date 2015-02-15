@@ -1,10 +1,10 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 11, 2015, 11:29:52 PM
-    Author     : Mihai
-*/
+footer{
+    min-height: 200px;
+    background: url("../img/bottom-lg.png") no-repeat center bottom;
+    padding-top: 80px;
+    font-size: 18px;
 
+    p{
+        font-size: 18px;
+    }
+}

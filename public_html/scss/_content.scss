@@ -1,0 +1,81 @@
+.social-share{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-size: 16px;
+    
+    &.text-left{
+        text-align: left;
+        margin-bottom: 15px;
+        
+        li{
+            margin-left: 0;
+            margin-right: 10px;
+        }
+    }
+    li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+}
+
+.hr{
+    margin: 10px 0;
+    
+    img{
+        width: 100%;
+    }
+}
+
+h1{
+    font-size: 24px;
+    color: #008bcf;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    margin: 0 0 15px;
+    padding: 14px 0 5px;
+    text-align: left;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+    font-family: Tahoma,Verdana,Helvetica,sans-serif;
+}
+
+.qr-list{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    
+    li{
+        width: 100px;
+        display: inline-block;
+        margin: 5px;
+        text-align: center;
+        
+        img{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+        span{
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+}
+main{
+    font-size: 16px;
+}
+
+.nivoSlider{
+    margin-top: 80px;
+    @include box-shadow(0 0 5px rgba(0, 0, 0, 0.7));
+}
