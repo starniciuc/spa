@@ -7,14 +7,14 @@
     background: -ms-linear-gradient(left, rgba(242,155,0,1) 0%,rgba(255,180,0,1) 50%,rgba(242,155,0,1) 100%); /* IE10+ */
     background: linear-gradient(to right, rgba(242,155,0,1) 0%,rgba(255,180,0,1) 50%,rgba(242,155,0,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29b00', endColorstr='#f29b00',GradientType=1 ); /* IE6-9 */
-    
+
     color: #FFFFFF;
     border:1px solid #FFFFFF;
     @include box-shadow(0 0 6px rgba(0, 0, 0, 0.17));
     border-radius: 0;
     cursor: pointer;
     padding-top: 3px;
-    
+
     &:hover{
         color: #FFFFFF;
     }
@@ -26,11 +26,44 @@
     width: 32px;
     height: 32px;
     background-size: 100% 100%;
-        
+
     &.vk{
         background-image: url("../img/vk.png");
     }
+
     &.inst{
         background-image: url("../img/instagram.png");
     }
+
+    &.sun{
+        background-image: url("../img/sun.png");
+		width: 26px;
+		height: 28px;
+    }
+	
+    &.bilding{
+        background-image: url("../img/8.png");
+		width: 26px;
+		height: 28px;
+    }
+}
+
+.btn-reg{
+	color: #966c23;
+	border: 1px solid #FFFFFF;
+	background: #dfbb76; /* Old browsers */
+	background: -moz-linear-gradient(left,  #dfbb76 0%, #f9ecac 50%, #dfbb76 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#dfbb76), color-stop(50%,#f9ecac), color-stop(100%,#dfbb76)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #dfbb76 0%,#f9ecac 50%,#dfbb76 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #dfbb76 0%,#f9ecac 50%,#dfbb76 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #dfbb76 0%,#f9ecac 50%,#dfbb76 100%); /* IE10+ */
+	background: linear-gradient(to right,  #dfbb76 0%,#f9ecac 50%,#dfbb76 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfbb76', endColorstr='#dfbb76',GradientType=1 ); /* IE6-9 */
+	
+	@include box-shadow(0 0 6px rgba(0, 0, 0, 0.17) );
+	font-size: 12px;
+	width: 115px;
+	white-space: normal;
+	display: inline-block;
+
 }

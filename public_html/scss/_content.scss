@@ -4,11 +4,11 @@
     margin: 0;
     text-align: right;
     font-size: 16px;
-    
+
     &.text-left{
         text-align: left;
         margin-bottom: 15px;
-        
+
         li{
             margin-left: 0;
             margin-right: 10px;
@@ -22,7 +22,7 @@
 
 .hr{
     margin: 10px 0;
-    
+
     img{
         width: 100%;
     }
@@ -52,18 +52,18 @@ p{
     padding: 0;
     list-style: none;
     margin: 0;
-    
+
     li{
         width: 100px;
         display: inline-block;
         margin: 5px;
         text-align: center;
-        
+
         img{
             width: 100%;
             margin-bottom: 10px;
         }
-        
+
         span{
             width: 100%;
             text-align: center;
@@ -73,6 +73,117 @@ p{
 }
 main{
     font-size: 16px;
+
+	.breadcrumb{
+		background: none;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 20px;
+
+		li{
+			color: #999999;
+			font-size: 14px;
+
+			& + li:before {
+				content: "\2022";
+			}
+
+			a{
+				color: #008bcf;
+				text-decoration: underline;
+
+				&:hover{
+					color: #fcc902;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	ul.left-menu{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+		li {
+			padding-bottom: 2px;
+			text-align: left;
+			background: url('../img/menu-bg.png') center bottom no-repeat;
+
+			a{
+				padding: 15px 0 15px 10px;
+				color: #008bcf;
+				font-size: 16px;
+				display: block;
+
+				&.selected{
+					font-weight: bold;
+				}
+			}
+
+			& > ul{
+				display: none;
+			}
+
+			&.selected, &:hover{
+				& > ul{
+					display: block;
+					background-color: #fdf8e2;
+					list-style: none;
+					padding: 0;
+					li{
+						padding: 5px 10px;
+						background: none;
+						
+						a{
+							padding: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	table.price-table{
+		tr{
+
+			th{
+				background-color: #f4f4f4;
+				font-weight: normal;
+				font-size: 16px;
+				padding: 6px 6px 6px 10px;
+				color: #008bcf;
+				border-bottom: 1px dashed;
+			}
+			td{
+				padding: 10px;
+				font-size: 15px;
+
+				&.price{
+					font-weight: bold;
+					white-space: nowrap;
+					text-align: right;
+				}
+
+				&:last-child{
+					white-space: nowrap;
+
+					i{
+						margin-right: 10px;
+					}
+				}
+			}
+
+			&:nth-child(odd) {background-color: #f4f4f4;}
+		}
+	}
+
+	.price-block{
+		background-color: #fdf8e2;
+		padding: 15px;
+		font-size: 14px;
+	}
+
 }
 
 .nivoSlider{

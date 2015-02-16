@@ -1,12 +1,14 @@
 @media screen and (max-width: 1200px) {
     body {
-        background: url("../img/main-bg-md.png") repeat-y center center;
+        //background: url("../img/main-bg-md.png") repeat-y center center;
+        background: url("../img/main_bg.jpg") repeat-y center center;
     }
     header ul.main-menu li{
         width: 158px;
     }
      footer{
-        background: url("../img/bottom-md.png") no-repeat center bottom;
+        //background: url("../img/bottom-md.png") no-repeat center bottom;
+        background: url("../img/bottom.png") no-repeat center bottom;
     }
 }
 @media screen and (max-width: 992px) {
@@ -21,7 +23,7 @@
         }
     }
      footer{
-        background: url("../img/bottom-sm.png") no-repeat center bottom;
+        background: url("../img/bottom-sm.png") no-repeat center bottom;        
     }
    
 }
