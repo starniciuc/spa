@@ -36,6 +36,10 @@ h1{
     margin: 0 0 15px;
     padding: 14px 0 5px;
     text-align: left;
+
+    &.query{
+        font-size: 18px;
+    }
 }
 
 h5{
@@ -73,117 +77,222 @@ p{
 }
 main{
     font-size: 16px;
+    a{
+        color: #008bcf;
+        text-decoration: underline;
 
-	.breadcrumb{
-		background: none;
-		margin: 0;
-		padding: 0;
-		margin-bottom: 20px;
+        &:hover{
+            color: #fcc902;
+            text-decoration: underline;
+        }
+    }
 
-		li{
-			color: #999999;
-			font-size: 14px;
+    .breadcrumb{
+        background: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
 
-			& + li:before {
-				content: "\2022";
-			}
+        li{
+            color: #999999;
+            font-size: 14px;
 
-			a{
-				color: #008bcf;
-				text-decoration: underline;
+            & + li:before {
+                content: "\2022";
+            }
 
-				&:hover{
-					color: #fcc902;
-					text-decoration: underline;
-				}
-			}
-		}
-	}
+            a{
+                color: #008bcf;
+                text-decoration: underline;
 
-	ul.left-menu{
-		padding: 0;
-		margin: 0;
-		list-style: none;
+                &:hover{
+                    color: #fcc902;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 
-		li {
-			padding-bottom: 2px;
-			text-align: left;
-			background: url('../img/menu-bg.png') center bottom no-repeat;
+    ul.left-menu{
+        padding: 0;
+        margin: 0;
+        list-style: none;
 
-			a{
-				padding: 15px 0 15px 10px;
-				color: #008bcf;
-				font-size: 16px;
-				display: block;
+        li {
+            padding-bottom: 2px;
+            text-align: left;
+            background: url('../img/menu-bg.png') center bottom no-repeat;
 
-				&.selected{
-					font-weight: bold;
-				}
-			}
+            a{
+                padding: 15px 0 15px 10px;
+                color: #008bcf;
+                font-size: 16px;
+                display: block;
 
-			& > ul{
-				display: none;
-			}
+                &.selected{
+                    font-weight: bold;
+                }
+            }
 
-			&.selected, &:hover{
-				& > ul{
-					display: block;
-					background-color: #fdf8e2;
-					list-style: none;
-					padding: 0;
-					li{
-						padding: 5px 10px;
-						background: none;
-						
-						a{
-							padding: 0;
-						}
-					}
-				}
-			}
-		}
-	}
-	table.price-table{
-		tr{
+            & > ul{
+                display: none;
+            }
 
-			th{
-				background-color: #f4f4f4;
-				font-weight: normal;
-				font-size: 16px;
-				padding: 6px 6px 6px 10px;
-				color: #008bcf;
-				border-bottom: 1px dashed;
-			}
-			
-			td{
-				padding: 10px;
-				font-size: 15px;
+            &.selected, &:hover{
+                & > ul{
+                    display: block;
+                    background-color: #fdf8e2;
+                    list-style: none;
+                    padding: 0;
+                    li{
+                        padding: 5px 10px;
+                        background: none;
 
-				&.price{
-					font-weight: bold;
-					white-space: nowrap;
-					text-align: right;
-				}
+                        a{
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    table.price-table{
+        tr{
 
-				&:last-child{
-					white-space: nowrap;
+            th{
+                background-color: #f4f4f4;
+                font-weight: normal;
+                font-size: 16px;
+                padding: 6px 6px 6px 10px;
+                color: #008bcf;
+                border-bottom: 1px dashed;
+            }
 
-					i{
-						margin-right: 10px;
-					}
-				}
-			}
+            td{
+                padding: 10px;
+                font-size: 15px;
 
-			&:nth-child(odd) {background-color: #f4f4f4;}
-		}
-	}
+                &.price{
+                    font-weight: bold;
+                    white-space: nowrap;
+                    text-align: right;
+                }
 
-	.price-block{
-		background-color: #fdf8e2;
-		padding: 15px;
-		font-size: 14px;
-	}
+                &:last-child{
+                    white-space: nowrap;
 
+                    i{
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            &:nth-child(odd) {background-color: #f4f4f4;}
+        }
+    }
+
+    .price-block{
+        background-color: #fdf8e2;
+        padding: 15px;
+        font-size: 14px;
+
+        i{
+            margin-right: 5px;
+        }
+    }
+
+    .form-block{
+        background: none repeat scroll 0 0 #f0de92;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+        color: #716340;
+        margin: 20px 0;
+        padding: 20px;
+        font-size: 14px;
+
+        label{
+            font-size: 12px;
+            font-weight: normal;
+        }
+        input.form-control{
+            height: 27px;
+        }
+        h4{
+            font-weight: normal;
+            font-size: 16px;
+            color: #008bcf;
+        }
+        &.grey{
+            h4{
+                color: #6e4d2a;
+            }
+        }
+        .btn-reg{
+            width: 180px;
+        }
+        .input-group.date{
+            input{
+                border-right: 0;
+            }
+        }
+        .input-group-addon{
+            background: none;
+            padding: 0;
+            background-color: #FFFFFF;
+            border: 1px solid #CCCCCC;
+            border-left: 0;
+            border-radius: 0;
+            padding-right: 5px;
+        }
+    }
+
+    .text-block{
+        margin-top: 15px;
+
+        .image-block{
+            width: 280px;
+            float: left;
+            margin-right: 25px;
+
+            img{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .btn-reg{
+                width: 100%;
+            }
+        }
+
+        ul{
+            padding-left: 15px;
+        }
+    }
+
+    .query-block{
+        .item-q{
+            border-top: 1px solid #d1d0d0;
+            padding: 15px 0; 
+            font-size: 15px;
+            color: #494848;
+        }
+        p{
+            margin-bottom: 5px;
+
+            &.name{
+                font-weight: bold;
+            }
+        }
+
+        .asker{
+            margin-bottom: 15px;
+        }
+
+        .answer{
+            padding-left: 50px;
+        }
+    }
 }
 
 .nivoSlider{

@@ -7,3 +7,7 @@ $(window).load(function () {
         });
     }
 });
+
+$(function () {
+    $('#datetimepicker1').datetimepicker();
+});

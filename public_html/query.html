@@ -14,6 +14,7 @@
 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link href="css/nivo-slider.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -153,110 +154,97 @@
                         <div class="col-md-12">
                             <ul class="breadcrumb">
                                 <li><a href="#" title="Главная">Главная</a></li>
-                                <li><a href="#" title="Наши цены">Наши цены</a></li>
-                                <li>Аква-термо зона</li>
+                                <li>Вопрос-Ответ</li>
                             </ul> 
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-3">
-                            <ul class="left-menu">
-                                <li><a href="#">Аква-термо зона</a></li>
-                                <li><a href="#">Эксклюзивные VIP-ритуалы</a></li>
-                                <li><a href="#">Эстетика тела</a></li>
-                                <li><a href="#">Косметология</a></li>
-                                <li class="selected">
-                                    <a href="#" class="selected">Аппаратные методики по лицу и телу</a>
-                                    <ul>
-                                        <li><a href="#">Аква-термо зона</a></li>
-                                        <li><a href="#">Радиочастотная терепия</a></li>
-                                        <li><a href="#">IPL</a></li>
-                                        <li><a href="#">Лазерная терапия</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Парикмахерские услуги</a></li>
-                                <li><a href="#">Макияж</a></li>
-                                <li><a href="#">Услуги кабинета маникюра</a></li>
-                                <li><a href="#">Услуги кабинета педикюра</a></li>
-                                <li><a href="#">Wellness</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-9">
-                            <h1>Наши цены</h1>
-                            <div class="price-block">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <input type="checkbox"> <i class="icon sun"></i> Спа-центр на ул. Весны
+                        <div class="col-md-12">
+                            <h1 class="query">Вы можете задать вопрос, и наши специалисты ответят на него в ближайшее время </h1>
+
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="form-block grey">
+                                    <form>
+                                        <h4>Задать вопрос</h4>
+                                        <div class="form-group">
+                                            <label>Как вас зовут*</label>
+                                            <input class="form-control" type="text">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Ваш вопрос*</label>
+                                            <textarea class="form-control"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label>На какой email вам выслать уведомление об ответе?*</label>
+                                            <input class="form-control" type="text">
+                                        </div>
+                                        <div class="form-group text-center">
+                                            <input type="submit" class="btn btn-reg" value="Задать вопрос">
+                                        </div>
+                                        <p>* - Поля, обязательные для заполнения</p>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <h1 class="query">Вопросы от пользователей</h1>
+
+                            <div class="query-block">
+                                <div class="item-q">
+                                    <div class="asker">
+                                        <p class="date">Здравствуйте, какие виды соляриев у вас есть? Белый есть?</p>
+                                        <p class="name">Вопрос от Alina:</p>
+                                        <p>Здравствуйте, какие виды соляриев у вас есть? Белый есть?</p>
                                     </div>
-                                    <div class="col-md-6">
-                                        <input type="checkbox"> <i class="icon bilding"></i> Спа-центр в гостинице Hilton
+                                    <div class="answer">
+                                        <p class="name">Ответ:</p>
+                                        <p>Конечно есть, в общей сложности пять видов соляиев:</p>
+                                        <ul>
+                                            <li>Белый</li>
+                                            <li>Зеленый</li>
+                                            <li>Синий</li>
+                                            <li>Розовый</li>
+                                            <li>Красный</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item-q">
+                                    <div class="asker">
+                                        <p class="date">Здравствуйте, какие виды соляриев у вас есть? Белый есть?</p>
+                                        <p class="name">Вопрос от Alina:</p>
+                                        <p>Здравствуйте, какие виды соляриев у вас есть? Белый есть?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <p class="name">Ответ:</p>
+                                        <p>Конечно есть, в общей сложности пять видов соляиев:</p>
+                                        <ul>
+                                            <li>Белый</li>
+                                            <li>Зеленый</li>
+                                            <li>Синий</li>
+                                            <li>Розовый</li>
+                                            <li>Красный</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item-q">
+                                    <div class="asker">
+                                        <p class="date">Здравствуйте, какие виды соляриев у вас есть? Белый есть?</p>
+                                        <p class="name">Вопрос от Alina:</p>
+                                        <p>Здравствуйте, какие виды соляриев у вас есть? Белый есть?</p>
+                                    </div>
+                                    <div class="answer">
+                                        <p class="name">Ответ:</p>
+                                        <p>Конечно есть, в общей сложности пять видов соляиев:</p>
+                                        <ul>
+                                            <li>Белый</li>
+                                            <li>Зеленый</li>
+                                            <li>Синий</li>
+                                            <li>Розовый</li>
+                                            <li>Красный</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <h1>Аква-термозона</h1>
-                            <table class="price-table">
-                                <tr>
-                                    <th>Название услуги</th>
-                                    <th>Цена (руб.)	</th>
-                                    <th>Где</th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="name">Аква-термо зона</div>
-                                        взрослые и дети после 7 лет (1 ч 30 мин)
-                                    </td>
-                                    <td class="price">1 250</td>
-                                    <td><i class="icon sun"></i> <button class="btn btn-reg">Записаться или спросить</button></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="name">Аква-термо зона</div>
-                                        детям до 7 лет (1 ч 30 мин)
-                                    </td>
-                                    <td class="price">1 250</td>
-                                    <td><i class="icon sun"></i> <button class="btn btn-reg">Записаться или спросить</button></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="name">Аква-термо зона</div>
-                                        взрослые и дети после 7 лет (1 ч)
-                                    </td>
-                                    <td class="price">1 250</td>
-                                    <td><i class="icon sun"></i> <button class="btn btn-reg">Записаться или спросить</button></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="name">Аква-термо зона</div>
-                                        детям до 7 лет (1 ч)
-                                    </td>
-                                    <td class="price">250</td>
-                                    <td><i class="icon sun"></i> <button class="btn btn-reg">Записаться или спросить</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Безлимитный абонемент на посещение аква-термозоны на полгода</td>
-                                    <td class="price">250</td>
-                                    <td><i class="icon sun"></i> <button class="btn btn-reg">Записаться или спросить</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Безлимитный абонемент на посещение аква-термозоны на год</td>
-                                    <td class="price">250</td>
-                                    <td><i class="icon sun"></i> <button class="btn btn-reg">Записаться или спросить</button></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="name">СПА девичник-мальчишник</div>
-                                        Для Вас и Вашей компании (до 15 чел.)<br>
-                                        В будни до 18:00(3 ч)
-                                    </td>
-                                    <td class="price">1 250</td>
-                                    <td><i class="icon sun"></i> <button class="btn btn-reg">Записаться или спросить</button></td>
-                                </tr>
-                                <tr>
-                                    <td>СПА девичник-мальчишник Для Вас и Вашей компании (до 15 чел.) В будни с 18:00 до 22:00,выходные, праздничные дни (3 ч)</td>
-                                    <td class="price">1 250</td>
-                                    <td><i class="icon sun"></i> <button class="btn btn-reg">Записаться или спросить</button></td>
-                                </tr>
-                            </table>
+
                         </div>
                     </div>
                 </div>
@@ -284,6 +272,8 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="js/moment.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
         <script src="js/main.js"></script>
 
     </body>
