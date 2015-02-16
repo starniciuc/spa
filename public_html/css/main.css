@@ -24,7 +24,9 @@ footer { clear: both; position: relative; height: 200px; }
 
 .mar-bot-15 { margin-bottom: 15px; }
 
-.btn-call { background: #f29b00; /* Old browsers */ background: -moz-linear-gradient(left, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, #f29b00), color-stop(50%, #ffb400), color-stop(100%, #f29b00)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* IE10+ */ background: linear-gradient(to right, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29b00', endColorstr='#f29b00',GradientType=1 ); /* IE6-9 */ color: #FFFFFF; border: 1px solid #FFFFFF; -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.17); -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.17); box-shadow: 0 0 6px rgba(0, 0, 0, 0.17); border-radius: 0; cursor: pointer; padding-top: 3px; }
+.container { max-width: 900px; }
+
+.btn-call { background: #f29b00; /* Old browsers */ background: -moz-linear-gradient(left, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, #f29b00), color-stop(50%, #ffb400), color-stop(100%, #f29b00)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* IE10+ */ background: linear-gradient(to right, #f29b00 0%, #ffb400 50%, #f29b00 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f29b00', endColorstr='#f29b00',GradientType=1 ); /* IE6-9 */ color: #FFFFFF; border: 1px solid #FFFFFF; -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.17); -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.17); box-shadow: 0 0 6px rgba(0, 0, 0, 0.17); border-radius: 0; cursor: pointer; padding-top: 3px; }
 .btn-call:hover { color: #FFFFFF; }
 
 .icon { display: inline-block; vertical-align: middle; width: 32px; height: 32px; background-size: 100% 100%; }
@@ -39,19 +41,19 @@ header .banner-slider img { width: 100%; }
 header .logo a { display: block; width: 448px; height: 127px; background-image: url("../img/logo.png"); position: absolute; top: 20px; left: 6px; }
 header .top-menu-block { height: 40px; }
 header .top-menu-block ul.top-menu { list-style: none; padding: 0; margin: 0; display: inline-block; }
-header .top-menu-block ul.top-menu li { display: inline-block; background: url("../img/kn_top_bg.png") no-repeat scroll 0 10px transparent; height: 40px; margin: 0; padding: 0; }
+header .top-menu-block ul.top-menu li { display: inline-block; background: url("../img/kn_top_bg.png") no-repeat scroll 0 10px rgba(0, 0, 0, 0); height: 40px; margin: 0; padding: 0; }
 header .top-menu-block ul.top-menu li:first-child { background: none; }
 header .top-menu-block ul.top-menu a.item { display: inline-block; padding: 5px 8px; font-size: 14px; color: #474747; font-family: Tahoma,Verdana,Helvetica,sans-serif; line-height: 36px; }
 header .top-menu-block .btn-call { display: inline-block; }
 header .phone-block { padding-right: 30px; padding-bottom: 10px; }
 header ul.main-menu { padding: 0; margin: 0; }
-header ul.main-menu li { height: 30px; margin: 0; padding-right: 0; width: 192px; display: inline-block; background: url("../img/knop_sect_select.png") repeat-y scroll 0 0 #fff; background-size: 100% auto; }
+header ul.main-menu li { height: 30px; margin: 0; padding-right: 0; width: 191px; display: inline-block; background: url("../img/knop_sect_select.png") repeat-y scroll 0 0 white; background-size: 100% auto; }
 header ul.main-menu li:hover { background-position: 0 0; background-size: 100% auto; }
-header ul.main-menu li:hover a.item { background: url("../img/knop_sect.png") repeat-y scroll 0 0 transparent; background-size: 100% auto; font-weight: normal; height: 30px; line-height: 30px; padding: 0; text-decoration: underline; width: 100%; }
+header ul.main-menu li:hover a.item { background: url("../img/knop_sect.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0); background-size: 100% auto; font-weight: normal; height: 30px; line-height: 30px; padding: 0; text-decoration: underline; width: 100%; }
 header ul.main-menu li:hover ul { display: block; }
 header ul.main-menu li a.item { display: block; padding: 5px 10px; text-align: center; text-decoration: none; color: #4f4f4f; font-size: 14px; }
-header ul.main-menu li ul { background: url("../img/m_bg_big.png") repeat-y scroll 0 0 #fff; border: medium none; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.6); display: none; height: auto; margin-left: 1px; padding: 0; padding-bottom: 20px; padding-top: 20px; position: absolute; top: auto; width: 272px; z-index: 500; }
-header ul.main-menu li ul li { background: url("../img/m_bg_big.png") repeat-y scroll 0 0 #fff; display: inline-block; width: auto; width: 100%; margin: 0; padding: 0; }
+header ul.main-menu li ul { background: url("../img/m_bg_big.png") repeat-y scroll 0 0 white; border: medium none; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.6); display: none; height: auto; margin-left: 1px; padding: 0; padding-bottom: 20px; padding-top: 20px; position: absolute; top: auto; width: 272px; z-index: 500; }
+header ul.main-menu li ul li { background: url("../img/m_bg_big.png") repeat-y scroll 0 0 white; display: inline-block; width: auto; width: 100%; margin: 0; padding: 0; }
 header ul.main-menu li ul li a { padding-left: 20px; font-size: 14px; color: #4f4f4f; }
 header .tel-link { font-size: 28px; color: #000000; }
 header .tel-link strong { font-size: 16px; color: #a1816a; font-weight: bold; }
@@ -59,13 +61,13 @@ header .tel-link span { font-size: 16px; color: #ccc; }
 header .phone-block p { font-size: 14px; color: #62350e; margin: 0; padding: 10px 0 0 137px; font-size: 14px; }
 header .phone-block p span.grey { color: #999; font-size: 13px; }
 header .phone-block p span.tel { color: #a1816a; }
-header .phone-block p a.clock { background: url("../img/clock.png") no-repeat scroll 0 0 transparent; display: inline-block; height: 11px; width: 11px; margin-right: 20px; }
+header .phone-block p a.clock { background: url("../img/clock.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); display: inline-block; height: 11px; width: 11px; margin-right: 20px; }
 header .phone-block p a.clock:hover { background-position: 0 -50px; }
 header .phone-block .last .adress { width: 130px; float: right; padding-right: 3px; }
 header .phone-block .last .telephone { float: right; }
 header .phone-block .last span.hotel { color: #a1816a; font-size: 12px; }
 
-.seaerch-btn { background: url("../img/poisk.png") no-repeat scroll 0 0 transparent; border: 0 none; background-size: 100% 100%; color: #fff; cursor: pointer; font-size: 14px; font-weight: normal; height: 30px; line-height: 16px; text-shadow: 1px 1px 1px #d7a969; width: 70px; text-transform: uppercase; font-family: Arial, Helvetica, sans-serif; }
+.seaerch-btn { background: url("../img/poisk.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); border: 0 none; background-size: 100% 100%; color: #fff; cursor: pointer; font-size: 14px; font-weight: normal; height: 30px; line-height: 16px; text-shadow: 1px 1px 1px #d7a969; width: 70px; text-transform: uppercase; font-family: Arial, Helvetica, sans-serif; }
 
 .input-search { border: 1px solid #d7a969; color: #000; width: 70%; height: 30px; }
 
@@ -90,7 +92,7 @@ p { font-size: 15px; font-family: Tahoma,Verdana,Helvetica,sans-serif; }
 
 main { font-size: 16px; }
 
-.nivoSlider { margin-top: 80px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); }
+.nivoSlider { margin-top: 80px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); }
 
 footer { min-height: 200px; background: url("../img/bottom-lg.png") no-repeat center bottom; padding-top: 80px; font-size: 18px; }
 footer p { font-size: 18px; }
@@ -106,5 +108,3 @@ footer p { font-size: 18px; }
   header ul.main-menu li a.item { padding: 5px 20px; }
   header ul.main-menu li { width: 100%; }
   .navbar-toggle .icon-bar { background-color: #FFF; } }
-
-/*# sourceMappingURL=main.css.map */
