@@ -1,21 +1,21 @@
 body {
     color: #5f5f5f;
     //font-family: 'PT Sans', sans-serif;
-	font-family: Tahoma, Verdana, Helvetica, sans-serif;
+    font-family: Tahoma, Verdana, Helvetica, sans-serif;
     //background: url("../img/main-bg-lg.png") repeat-y center center;
     background: url("../img/main_bg.jpg") repeat-y center center;
 }
 header{
     width: 100%;
     position: relative;
-    
+
     .banner-slider{
         position: absolute;
         top: 0;
         z-index: 25;
         left: 0;
         width: 100%;
-        
+
         img{
             width: 100%;
         }        
@@ -26,7 +26,7 @@ header{
         height: 127px;
         background-image: url("../img/logo.png");
         position: absolute;
-        top: 20px;
+        top: 40px;
         left: 6px;
     }
     .top-menu-block{
@@ -87,12 +87,7 @@ header{
                 a.item{
                     background: url("../img/knop_sect.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
                     background-size: 100% auto;
-                    font-weight: normal;
-                    height: 30px;
-                    line-height: 30px;
-                    padding: 0;
                     text-decoration: underline;
-                    width: 100%;
                 }
                 ul{
                     display:block;
@@ -152,9 +147,13 @@ header{
             font-size: 16px;
             color: #ccc;
         }
+        
+        &:hover{
+            text-decoration: none;
+        }
     }
     .phone-block{
-        p{
+        & > div{
             font-size: 14px;
             color: #62350e;
             margin: 0;
@@ -169,19 +168,42 @@ header{
             span.tel{
                 color: #a1816a;
             }
+            .clock-popup{
+                position: relative;
+                display: inline-block;
+                
+                .rejrab1 {
+                    background: url("../img/rejim_raboti.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+                    color: #6f4d2a;
+                    display: none;
+                    height: 122px;
+                    position: absolute;
+                    top: 11px;
+                    width: 177px;
+                    z-index: 99;
+                }
+                
+                 &:hover{
+                    .rejrab1{
+                        display: block;
+                    }
+                }
+            }
             a.clock{
                 background: url("../img/clock.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
                 display: inline-block;
                 height: 11px;
                 width: 11px;
                 margin-right: 15px;
-				
-				&:last-child{
-					margin-right: 0;
-				}
+
+                &:last-child{
+                    margin-right: 0;
+                }
                 &:hover{
                     background-position: 0 -50px;
                 }
+
+                
             }
         }  
 
@@ -200,9 +222,9 @@ header{
             }
         }
     } 
-	.navbar{
-		min-height: 33px;
-	}
+    .navbar{
+        min-height: 33px;
+    }
 }
 
 .seaerch-btn{
