@@ -25,7 +25,9 @@
     footer{
         background: url("../img/bottom-sm.png") no-repeat center bottom;        
     }
-
+    main ul.left-menu li{
+        background-position: left bottom;
+    }
 }
 @media(max-width:767px){
     header ul.main-menu li a.item{
@@ -46,18 +48,18 @@
         left: 0;
         width: 100%;
         z-index: 99;
-        background-image: url("../img/logo.png");
+        background-image: url("../img/logo-small.png");
         background-position: 15px 5px;
         background-size: auto 40px;
         background-repeat: no-repeat;
 
         .navbar-header{
             .tel-link{
-                font-size: 13px;
+                font-size: 16px;
                 font-weight: bold;
                 color: rgb(242,155,0);
                 position: absolute;
-                top: 0px;
+                top: 12px;
                 left: 65px;
             }
         }
@@ -65,5 +67,13 @@
 
     main{
         padding-top: 60px;
+    }
+    main ul.left-menu li{
+        background-size: 100% auto;
+    }
+    footer{
+        padding-top: 110px;
+        padding-bottom: 110px;
+        background: url("../img/bottom-xs.png") no-repeat center top;        
     }
 }
