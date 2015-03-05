@@ -9,7 +9,7 @@
     footer{
         //background: url("../img/bottom-md.png") no-repeat center bottom;
         background: url("../img/bottom.png") no-repeat center bottom;
-    }
+    }   
 }
 @media screen and (max-width: 992px) {
     body {
@@ -27,6 +27,9 @@
     }
     main ul.left-menu li{
         background-position: left bottom;
+    }
+    header .top-menu-block ul.top-menu a.item{
+        font-size: 12px;
     }
 }
 @media(max-width:767px){

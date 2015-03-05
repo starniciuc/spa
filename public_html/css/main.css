@@ -158,7 +158,8 @@ footer p { font-size: 16px; margin-bottom: 2px; }
   header ul.main-menu li { width: 120px; }
   header ul.main-menu li a.item { padding: 5px 0; }
   footer { background: url("../img/bottom-sm.png") no-repeat center bottom; }
-  main ul.left-menu li { background-position: left bottom; } }
+  main ul.left-menu li { background-position: left bottom; }
+  header .top-menu-block ul.top-menu a.item { font-size: 12px; } }
 @media (max-width: 767px) { header ul.main-menu li a.item { padding: 5px 20px; }
   header ul.main-menu li { width: 100%; }
   .navbar-toggle .icon-bar { background-color: #FFF; }
