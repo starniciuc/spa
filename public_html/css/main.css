@@ -148,9 +148,21 @@ main .query-block .answer { padding-left: 50px; }
 
 .nivoSlider { margin-top: 80px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); }
 
+.plashka { position: fixed; top: 30%; width: 270px; height: auto; margin-left: 910px; border: 5px solid #ff9e00; background-color: #fdf8e2; padding: 10px; }
+.plashka h1 { color: #ff9e00; text-align: center; }
+.plashka .close-plashka { border-radius: 12px; width: 24px; height: 24px; background: none; background-color: #ff9e00; text-align: center; color: #FFFFFF; font-family: Arial,Helvetica,sans-serif; border: 0; box-shadow: none; position: absolute; top: -14px; right: -14px; font-size: 16px; line-height: 20px; text-align: center; }
+.plashka .item-news { font-family: Arial,Helvetica,sans-serif; border-bottom: 1px solid #e7ab65; margin-bottom: 15px; }
+.plashka .item-news:last-child { border: 0; }
+.plashka .item-news .image-block { width: 99px; float: left; margin-right: 15px; margin-bottom: 15px; background: #dbaf6d; /* Old browsers */ background: -moz-linear-gradient(left, #dbaf6d 0%, #eed390 26%, #fbeeaf 50%, #eed390 80%, #deb670 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(0%, #dbaf6d), color-stop(26%, #eed390), color-stop(50%, #fbeeaf), color-stop(80%, #eed390), color-stop(100%, #deb670)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, #dbaf6d 0%, #eed390 26%, #fbeeaf 50%, #eed390 80%, #deb670 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, #dbaf6d 0%, #eed390 26%, #fbeeaf 50%, #eed390 80%, #deb670 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, #dbaf6d 0%, #eed390 26%, #fbeeaf 50%, #eed390 80%, #deb670 100%); /* IE10+ */ background: linear-gradient(to right, #dbaf6d 0%, #eed390 26%, #fbeeaf 50%, #eed390 80%, #deb670 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbaf6d', endColorstr='#deb670',GradientType=1 ); /* IE6-9 */ padding: 8px; }
+.plashka .item-news .image-block img { width: 100%; }
+.plashka .item-news a { color: #008bcf; font-size: 13px; line-height: 16px; display: block; margin-bottom: 10px; }
+.plashka .item-news a:hover { text-decoration: none; }
+.plashka .item-news .date { color: #ababab; font-size: 12px; }
+
 footer { min-height: 200px; background: url("../img/bottom.png") no-repeat center bottom; padding-top: 80px; font-size: 18px; }
 footer p { font-size: 16px; margin-bottom: 2px; }
 
+@media screen and (max-width: 1500px) { .plashka { display: none; } }
 @media screen and (max-width: 1200px) { body { background: url("../img/main_bg.jpg") repeat-y center center; }
   header ul.main-menu li { width: 145px; }
   footer { background: url("../img/bottom.png") no-repeat center bottom; } }
