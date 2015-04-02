@@ -50,7 +50,7 @@ header .top-menu-block ul.top-menu { list-style: none; padding: 0; margin: 0; di
 header .top-menu-block ul.top-menu li { display: inline-block; background: url("../img/kn_top_bg.png") no-repeat scroll 0 10px rgba(0, 0, 0, 0); height: 40px; margin: 0; padding: 0; }
 header .top-menu-block ul.top-menu li:first-child { background: none; }
 header .top-menu-block ul.top-menu a.item { display: inline-block; padding: 5px 8px; font-size: 14px; color: #474747; font-family: Tahoma,Verdana,Helvetica,sans-serif; line-height: 36px; }
-header .top-menu-block .btn-call { display: inline-block; }
+header .top-menu-block .btn-call { display: inline-block; z-index: 22; position: relative; }
 header .phone-block { padding-right: 30px; padding-bottom: 10px; }
 header ul.main-menu { padding: 0; margin: 0; }
 header ul.main-menu li { height: 30px; margin: 0; padding-right: 0; width: 145px; display: inline-block; background: url("../img/knop_sect_select.png") repeat-y scroll 0 0 white; background-size: 100% auto; }
