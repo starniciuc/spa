@@ -313,10 +313,10 @@ main{
 
 .plashka{
     position: fixed;
-    top: 30%;
-    width: 270px;
+    top: 20%;
+    width: 220px;
     height: auto;
-    margin-left: 910px;
+    margin-left: 900px;
     border: 5px solid #ff9e00;
     background-color: #fdf8e2;
     padding: 10px;
@@ -354,7 +354,7 @@ main{
         }
 
         .image-block{
-            width: 99px;
+            width: 72px;
             float: left;
             margin-right: 15px;
             margin-bottom: 15px;
@@ -367,7 +367,7 @@ main{
             background: linear-gradient(to right,  #dbaf6d 0%,#eed390 26%,#fbeeaf 50%,#eed390 80%,#deb670 100%); /* W3C */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbaf6d', endColorstr='#deb670',GradientType=1 ); /* IE6-9 */
 
-            padding: 8px;
+            padding: 4px;
 
             img{
                 width: 100%;

@@ -11,3 +11,7 @@ $(window).load(function () {
 $(function () {
     $('#datetimepicker1').datetimepicker();
 });
+
+$(".close-plashka").click(function(){
+	$(".plashka").fadeOut();
+});

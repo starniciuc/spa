@@ -61,6 +61,8 @@ header{
 
         .btn-call{
             display: inline-block;
+			z-index: 22;
+			position: relative;
         }
     }
     .phone-block{
