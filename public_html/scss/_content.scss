@@ -41,7 +41,17 @@ h1{
         font-size: 18px;
     }
 }
+main{
+    h1{
+        a{
+            text-decoration: none;
 
+            &:hover{
+                text-decoration: underline;
+            }
+        } 
+    }
+}
 h5{
     font-size: 18px;
     font-weight: bold;
@@ -315,7 +325,7 @@ main{
         color: #ff9e00;
         text-align: center;
     }
-    
+
     .close-plashka{
         border-radius: 12px;
         width: 24px;
@@ -338,11 +348,11 @@ main{
         font-family: Arial,Helvetica,sans-serif;
         border-bottom: 1px solid #e7ab65;
         margin-bottom: 15px;
-        
+
         &:last-child{
             border: 0;
         }
-        
+
         .image-block{
             width: 99px;
             float: left;
@@ -369,7 +379,7 @@ main{
             line-height: 16px;
             display: block;
             margin-bottom: 10px;
-            
+
             &:hover{
                 text-decoration: none;
             }
