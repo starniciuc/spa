@@ -175,13 +175,14 @@ footer p { font-size: 16px; margin-bottom: 2px; }
   header ul.main-menu li a.item { padding: 5px 0; }
   footer { background: url("../img/bottom-sm.png") no-repeat center bottom; }
   main ul.left-menu li { background-position: left bottom; }
+  header .top-menu-block ul.top-menu a.item { font-size: 12px; }
   header .top-menu-block ul.top-menu a.item { font-size: 12px; } }
 @media (max-width: 767px) { header ul.main-menu li a.item { padding: 5px 20px; }
   header ul.main-menu li { width: 100%; }
   .navbar-toggle .icon-bar { background-color: #f29b00; }
   .navbar { background: #FBF2B6; border-bottom: 1px solid #f29b00; position: fixed; top: 0; left: 0; width: 100%; z-index: 99; background-image: url("../img/logo-small.png"); background-position: 15px 5px; background-size: auto 40px; background-repeat: no-repeat; }
   .navbar .navbar-header .tel-link { font-size: 20px; font-weight: normal; color: #f29b00; position: absolute; top: 12px; left: 65px; }
-  main { padding-top: 20px; }
+  main { padding-top: 60px; }
   main ul.left-menu li { background-size: 100% auto; }
   footer { padding-top: 110px; padding-bottom: 160px; background: url("../img/bottom-xs.png") no-repeat center top; }
   .mar-bot-15 { margin: 0; }
