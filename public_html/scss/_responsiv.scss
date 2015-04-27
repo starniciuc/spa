@@ -39,7 +39,7 @@
     header .top-menu-block ul.top-menu a.item{
         font-size: 12px;
     }
-    
+
 }
 @media(max-width:767px){
 
@@ -116,6 +116,12 @@
     }
     iframe{
         max-width: 100% !important;
+    }
+    
+    .modal{
+        .modal-dialog{
+            width: 95%;
+        }
     }
 }
 

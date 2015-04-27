@@ -207,7 +207,8 @@ footer p { font-size: 16px; margin-bottom: 2px; }
   .nivoSlider { margin-top: 50px; }
   .banner-slider { display: none; }
   .link-mob { color: #f29b00; font-size: 22px; line-height: 50px; display: inline-block; margin-right: 10px; }
-  iframe { max-width: 100% !important; } }
+  iframe { max-width: 100% !important; }
+  .modal .modal-dialog { width: 95%; } }
 @media (max-width: 400px) { .navbar .navbar-header .tel-link { font-size: 15px; } }
 
 /*# sourceMappingURL=main.css.map */
