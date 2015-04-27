@@ -391,3 +391,97 @@ main{
         }
     }
 }
+
+.modal{
+    .modal-dialog{
+        width: 400px;
+
+        .modal-content{
+            background: none repeat scroll 0 0 #f0de92;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+            color: #716340;
+            margin: 20px 0;
+            padding: 20px;
+            font-size: 14px;
+
+            h4{
+                font-weight: normal;
+                font-size: 16px;
+                color: #008bcf;
+                margin-bottom: 20px;
+            }
+
+            .close{
+                color: #008bcf;
+                font-weight: normal;
+                font-size: 14px;
+                opacity: 1;
+                position: absolute;
+                top: 10px;
+                text-shadow: none;
+                right: 10px;
+                padding: 1px 3px 2px;
+                border-radius: 18px;
+                @include transition(all 0.35s);
+
+                &:hover{
+                    background-color: red;
+                    color: #FFFFFF;
+                }
+            }
+
+            .form-group{
+                margin-bottom: 5px;
+
+                .input-group-addon {
+                    background: none;
+                    padding: 0;
+                    background-color: #FFFFFF;
+                    border: 1px solid #CCCCCC;
+                    border-left: 0;
+                    border-radius: 0;
+                    padding-right: 5px;
+                }
+            }
+
+            .btn-reg{
+                float: none;
+            }
+
+            .date{
+                inputa{
+                    border-right: 0;
+                }
+            }
+            
+            label{
+                font-size: 12px;
+                font-weight: normal;
+                color: #716340;
+            }
+
+            input[type="text"]{
+                padding: 3px 10px;
+                height: auto;
+            }
+
+            .modal-header{
+                padding: 0;
+                border: 0;
+            }
+
+            .modal-body{
+                padding: 0;
+                border: 0;
+            }
+
+            .modal-footer{
+                padding: 0;
+                border: 0;
+                text-align: center;
+            }
+        }
+    }
+}
