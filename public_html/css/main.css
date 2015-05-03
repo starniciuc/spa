@@ -107,7 +107,7 @@ p { font-size: 15px; font-family: Tahoma,Verdana,Helvetica,sans-serif; }
 .qr-list li img { width: 100%; margin-bottom: 10px; }
 .qr-list li span { width: 100%; text-align: center; font-size: 16px; }
 
-main { font-size: 16px; }
+main { font-size: 14px; }
 main a { color: #008bcf; text-decoration: underline; }
 main a:hover { color: #fcc902; text-decoration: underline; }
 main .breadcrumb { background: none; margin: 0; padding: 0; margin-bottom: 20px; }
@@ -192,7 +192,8 @@ footer p { font-size: 16px; margin-bottom: 2px; }
   main ul.left-menu li { background-position: left bottom; }
   header .top-menu-block ul.top-menu a.item { font-size: 12px; }
   header .top-menu-block ul.top-menu a.item { font-size: 12px; } }
-@media (max-width: 767px) { header ul.main-menu li a.item { padding: 5px 20px; }
+@media (max-width: 767px) { .wrapper { overflow: hidden; }
+  header ul.main-menu li a.item { padding: 5px 20px; }
   header ul.main-menu li { width: 100%; }
   .navbar-toggle .icon-bar { background-color: #f29b00; }
   .navbar { background: #FBF2B6; border-bottom: 1px solid #f29b00; position: fixed; top: 0; left: 0; width: 100%; z-index: 99; background-image: url("../img/logo-small.png"); background-position: 15px 5px; background-size: auto 40px; background-repeat: no-repeat; }
@@ -208,7 +209,11 @@ footer p { font-size: 16px; margin-bottom: 2px; }
   .banner-slider { display: none; }
   .link-mob { color: #f29b00; font-size: 22px; line-height: 50px; display: inline-block; margin-right: 10px; }
   iframe { max-width: 100% !important; }
-  .modal .modal-dialog { width: 95%; } }
-@media (max-width: 400px) { .navbar .navbar-header .tel-link { font-size: 15px; } }
+  .modal .modal-dialog { width: 95%; }
+  header ul.main-menu li ul { position: relative; width: 100%; background-size: auto 100%; margin-left: 0; }
+  header ul.main-menu li ul li { background-size: auto 100%; } }
+@media (max-width: 400px) { .navbar .navbar-header .tel-link { font-size: 15px; }
+  table.price-table tr { display: block; }
+  table.price-table tr td { display: block; width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */

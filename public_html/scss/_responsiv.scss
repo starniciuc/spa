@@ -42,7 +42,9 @@
 
 }
 @media(max-width:767px){
-
+    .wrapper{
+        overflow: hidden;
+    }
     header ul.main-menu li a.item{
         padding: 5px 20px;
     }
@@ -117,10 +119,21 @@
     iframe{
         max-width: 100% !important;
     }
-    
+
     .modal{
         .modal-dialog{
             width: 95%;
+        }
+    }
+    
+    header ul.main-menu li ul{
+        position: relative;
+        width: 100%;
+        background-size: auto 100%;
+        margin-left: 0;
+        
+        li{
+            background-size: auto 100%;
         }
     }
 }
@@ -130,6 +143,16 @@
         .navbar-header{
             .tel-link{
                 font-size: 15px;
+            }
+        }
+    }
+    table.price-table{
+        tr{
+            display: block;
+            
+            td{
+                display: block;
+                width: 100%;
             }
         }
     }
